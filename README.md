@@ -5,8 +5,8 @@ These sample codes allow one to custom JavaScript for kintone. [kintone](https:/
 **(NOTICE)** My Scriptings has not yet been fully tested for bugs.  
 
 ## Repository contents
-* **/timeline** - (under construction)
-* **/storyMap** - (under construction)
+* **/timeline** - create beautiful timelines
+* **/storyMap** - create map telling stories
 
 ## Useful information
 * ["cdnjs"](http://cdnjs.com/ "cdnjs") - deliver many JS libraries with HTTPS condition. See also, official [GitHub](https://github.com/cdnjs/cdnjs)
