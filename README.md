@@ -10,6 +10,7 @@ These sample codes allow one to custom JavaScript for kintone. [kintone](https:/
 
 ## Useful information
 * ["cdnjs"](http://cdnjs.com/ "cdnjs") - deliver many JS libraries with HTTPS condition. See also, official [GitHub](https://github.com/cdnjs/cdnjs)
+* ["jsDelivr"](http://www.jsdelivr.com/ "jsDelivr") - deliver many JS libraries with HTTPS condition. 
 
 ## kintone official information
 
