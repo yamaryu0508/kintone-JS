@@ -10,7 +10,7 @@ You can download a zipped template application, `template.zip` from this page, a
 
 I'll also provide a sample CSV file, `sampleRecords.csv` (UTF-8) for importing. So you can try immediately.
 
-**(NOTICE)** You should download a `kintone-JS` repository all while you get `template.zip` so as not to be corrupted!
+**(NOTICE)** You should download a `kintone-JS` repository all while you get `template.zip`, so as not to be corrupted!
 
 ## Embeded media
 You can embed image files.
