@@ -14,7 +14,7 @@ These sample codes allow one to custom JavaScript for kintone. [kintone](https:/
 ## Useful information
 * ["jsDelivr"](http://www.jsdelivr.com/ "jsDelivr") - hosted many JS libraries with HTTPS condition.  See also, official [GitHub](https://github.com/jsdelivr/jsdelivr)
 * ["cdnjs"](http://cdnjs.com/ "cdnjs") - hosted many JS libraries with HTTPS condition. See also, official [GitHub](https://github.com/cdnjs/cdnjs)
-* ["rawgithub"](http://rawgithub.com/ "rawgithub") - We can use GitHub as CDN while we replace the URL like [this](http://rawgithub.com/). See also, official [page](http://rawgithub.com/) and [Qita (Japanese)](http://qiita.com/futoase/items/39cb4b7d704b1e53e7f6)
+* ["rawgithub.com"](http://rawgithub.com/ "rawgithub") - We can use GitHub as CDN while we replace the URL like [this](http://rawgithub.com/). See also, official [page](http://rawgithub.com/) and [Qita (Japanese)](http://qiita.com/futoase/items/39cb4b7d704b1e53e7f6)
 
 ## kintone official information
 
