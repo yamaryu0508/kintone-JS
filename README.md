@@ -10,6 +10,7 @@ These sample codes allow one to custom JavaScript for kintone. [kintone](https:/
 * **/timeline** - create beautiful timelines
 * **/storyMap** - create map telling stories
 * **/slider** - create simple image galleries
+* **/doorkeeper** - import events form Doorkeeper
 
 ## Useful information
 * ["jsDelivr"](http://www.jsdelivr.com/ "jsDelivr") - hosted many JS libraries with HTTPS condition.  See also, official [GitHub](https://github.com/jsdelivr/jsdelivr)
