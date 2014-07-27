@@ -1,27 +1,21 @@
-# Story Map
+# kintone Café イベントアプリ（Doorkeeperコミュニティ連携）
 
-"Story Map" is a kintone application for creating maps telling stories. This is composed of kintone's original API functions and a JavaScript library, "StoryMap JS". 
+　「kintone Café イベントアプリ」はDoorkeeperの「kinotne Café」コミュニティのイベント情報を取得して一覧化するアプリです。kintone JavaScript APIのkintone.proxy()とDoorkeeper APIを利用しています。
+　アプリテンプレートとJavaScriptは「kinotne Café」用のものをデプロイしていますが、グループ（コミュニティ）名を変えることで、他のグループでの活用も可能です。
 
 ## Example
 ![kintone](image/kintoneImage.png)
 
-## Installation & Trial
-You can download a zipped template application, `template.zip` from this page, and then import into your kintone.
+## インストール
+zip形式のアプリテンプレート`template.zip` をこのページからダウンロードして、kintoneにインポートしてください。
 
-I'll also provide a sample CSV file, `sampleRecords.csv` (UTF-8) for importing. So you can try immediately.
+**(NOTICE)** `template.zip`が壊れないようにダウンロード頂くには、 `kintone-JS` レポジトリを一括ダウンロード頂くのが良いかと思います。
 
-**(NOTICE)** You should download a `kintone-JS` repository all while you get `template.zip`, so as not to be corrupted!
+## ライセンス
+MIT license
 
-## Embeded media
-You can embed rich media service, YouTube, Vine, Flickr, Picasa, and more. These are delivered under HTTPS conditions.
+## Doorkeeperオフィシャル情報
 
-(NOTICE) Vimeo, Twitter, Wikipedia were blocked in my tests.
-
-## License
-I'll provide these sample application and sources under the MIT license.
-
-## StoryMap JS official information
-
-* Official page: [StoryMap JS](http://storymap.knightlab.com/), [GitHub](https://github.com/NUKnightLab/StoryMapJS/)
-* Provider : NU Knight Lab
-* License : MIT License
+* Official page: [Doorkeeper API](http://www.doorkeeperhq.com/developer/api)
+* Provider : Doorkeeper Inc.
+* License : -
