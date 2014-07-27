@@ -1,9 +1,9 @@
 # kintone Café イベントアプリ（Doorkeeperコミュニティ連携）
 
-　「kintone Café イベントアプリ」はDoorkeeperの「kinotne Café」コミュニティのイベント情報を取得して一覧化するアプリです。kintone JavaScript APIのkintone.proxy()とDoorkeeper APIを利用しています。
-　アプリテンプレートとJavaScriptは「kinotne Café」用のものをデプロイしていますが、グループ（コミュニティ）名を変えることで、他のグループでの活用も可能です。
+　「**kintone Café イベントアプリ**」はDoorkeeperの[「kinotne Café」コミュニティ](http://kintone-cafe.doorkeeper.jp/)のイベント情報を取得して一覧化するアプリです。[kintone JavaScript API](https://cybozudev.zendesk.com/hc/ja/categories/200147600)の`kintone.proxy()`とDoorkeeper APIを利用しています。
+　アプリテンプレート（JS込み）とJavaScriptは「kinotne Café」用のものをデプロイしていますが、グループ（コミュニティ）名を変えることで、他のグループでの活用も可能です。
 
-## Example
+## 画面例
 ![kintone](image/kintoneImage.png)
 
 ## インストール
