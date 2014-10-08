@@ -1,0 +1,51 @@
+.processed-markdown table {
+    border-collapse: separate;
+    border-color: #dddddd #dddddd #dddddd;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+
+    border-collapse: separate;
+
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.processed-markdown table tbody tr:first-child th, .processed-markdown table thead tr:first-child th {
+    border-bottom: 1px solid #dddddd;
+}
+.processed-markdown table tbody tr:first-child th, .processed-markdown table tbody tr:first-child td, .processed-markdown table thead tr:first-child th, .processed-markdown table thead tr:first-child td {
+    border-top: medium none;
+}
+.processed-markdown table th, .processed-markdown table td {
+    border-left: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    line-height: 20px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+.processed-markdown table th {
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+
+.processed-markdown h1, .processed-markdown h2, .processed-markdown h3, .processed-markdown h4, .processed-markdown h5 {
+    color: #333333;
+    line-height: 1.4;
+    margin: 15px 0 10px;
+}
+.processed-markdown h2 {
+    border-bottom: 1px solid #cccccc;
+    font-size: 18px;
+    padding-bottom: 5px;
+}

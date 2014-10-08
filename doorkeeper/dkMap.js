@@ -20,7 +20,7 @@
 
     function showDetailMap(event){
         var r = event.record;
-        if(!(r['lon']['value'] && r['lat']['value'])){return;}
+        if(!(r['long']['value'] && r['lat']['value'])){return;}
     
         var elLocation = kintone.app.record.getSpaceElement('map');
 
@@ -33,7 +33,7 @@
 
         elLocation.appendChild(elMap);
 
-        var latlng = new OpenLayers.LonLat(r['lon']['value'], r['lat']['value'])
+        var latlng = new OpenLayers.LonLat(r['long']['value'], r['lat']['value'])
             .transform(
                 new OpenLayers.Projection("EPSG:4326"), 
                 new OpenLayers.Projection("EPSG:900913")
@@ -52,7 +52,7 @@
         var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
         var icon = new OpenLayers.Icon(iconUrl, size, offset);
         var marker = new OpenLayers.Marker(
-        new OpenLayers.LonLat(r['lon']['value'], r['lat']['value'])
+        new OpenLayers.LonLat(r['long']['value'], r['lat']['value'])
             .transform(
                     new OpenLayers.Projection("EPSG:4326"), 
                     new OpenLayers.Projection("EPSG:900913")
@@ -75,11 +75,11 @@
             var span = document.createElement("span");
             span.appendChild(button);
 
-            var label = document.getElementsByClassName('value-137231')[0];
+            var label = document.getElementsByClassName('value-5113223')[0];
             label.appendChild(span);
             
             appendEventListener(button, 'click', function () {
-                var address = document.getElementsByClassName('value-137231');
+                var address = document.getElementsByClassName('value-5113223');
                 var addressInput = address[0].getElementsByTagName('input');
                 var gc = new google.maps.Geocoder(); 
                 gc.geocode({
@@ -88,10 +88,10 @@
                     country: 'JP'
                 }, function(results, status) {
                     if (status == google.maps.GeocoderStatus.OK) {
-                        var lat = document.getElementsByClassName('value-137232');
+                        var lat = document.getElementsByClassName('value-5113224');
                         var latInput = lat[0].getElementsByTagName('input');
                         latInput[0].value = results[0].geometry.location.lat();        
-                        var lng = document.getElementsByClassName('value-137233');
+                        var lng = document.getElementsByClassName('value-5113225');
                         var lngInput = lng[0].getElementsByTagName('input');
                         lngInput[0].value = results[0].geometry.location.lng();                    
                     }

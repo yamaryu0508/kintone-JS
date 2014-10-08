@@ -142,8 +142,10 @@
         
         // 「イベント内容」がHTMLタグ付きで得られるため、textContentで入れ直す
         var elDescription = kintone.app.record.getFieldElement('description');
-        elDescription.innerHTML = '<div>' + elDescription.textContent + '</div>';
-        
+        elDescription.innerHTML = '<div class="processed-markdown">' + elDescription.textContent + '</div>';
+        var elTable = $(elDescription).find('table')[0];
+        console.log(elDescription);
+        console.log(elTable);
         // 表示が不要そうなフィールドを非表示にしておく
         kintone.app.record.setFieldShown('lat', false);
         kintone.app.record.setFieldShown('long', false);
